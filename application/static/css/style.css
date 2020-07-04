@@ -1,0 +1,84 @@
+body {
+    background-color: #90A0B3;
+}
+
+.login_block {
+    width: 800px;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f2ddc6;
+    margin: 20px auto;
+}
+
+.info_block {
+    width: 830px;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image_label_default {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 6px solid orange;
+    border-radius: 50%;
+    background: url("../img/avatars/default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image_label {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 6px solid orange;
+    border-radius: 50%;
+}
+
+.news_picture {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.subject_el {
+    border: 1px solid green;
+    color: green;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 5px 5px 5px;
+    display: inline-block;
+}
+
+.grade_el {
+    border: 1px solid #6666ff;
+    color: #6666ff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.organizer_el {
+    border: 1px solid #d470ff; 
+    border-radius: 10px; 
+    color: #d470ff; 
+    padding: 5px;
+    text-align: center;
+}
+
+.date_el {
+    border: 1px solid red;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+}

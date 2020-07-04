@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="info_block text-white bg-info">
+    <h3 class="text-center text-warning">{{ news.title }}</h3>
+    <img src="{{ news.photo }}" width="300px" class="news_picture">
+
+    {% for paragraph in paragraphs %}
+    <p style="font-size: 18pt">
+        {{ paragraph }}
+    </p>
+    {% endfor %}
+    <div class="clear"></div>
+    <div class="text-center" style="margin-top: 20px">
+        <a class="btn btn-success" href='/' style="margin: 20px auto; font-size: 14pt">Назад к новостям</a>
+    </div>
+</div>
+
+
+{% endblock %}
